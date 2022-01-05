@@ -27,6 +27,9 @@
                         <router-link to="/register" class="btn btn-success">
                             Register Page
                         </router-link>
+                        <router-link to="/starter" class="btn btn-success">
+                            Starter
+                        </router-link>
                     </div>
                 </div>
                 <div class="col-lg-5 mb-lg-auto">
