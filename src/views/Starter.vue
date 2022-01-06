@@ -18,13 +18,13 @@
                        class="btn btn-white mt-4">See all components</a>
                 </div>
                 <div class="col-lg-6 mb-lg-auto">
-                    <div class="rounded shadow-lg overflow-hidden transform-perspective-right">
+                    <div class="rounded shadow-lg overflow-hidden">
                         <b-carousel id="carousel1"
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="img/theme/img-1-1200x1000.jpg"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/img-2-1200x1000.jpg"></b-carousel-slide>
+                            <b-carousel-slide img-src="https://source.unsplash.com/1200x1000/?nature"></b-carousel-slide>
+                            <b-carousel-slide img-src="https://source.unsplash.com/1200x1000/?snow"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>

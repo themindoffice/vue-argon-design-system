@@ -1,9 +1,14 @@
 <template>
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
+            
             <router-link slot="brand" class="navbar-brand mr-lg-5" to="/">
-                <img src="img/brand/white.png" alt="logo">
+                <transition name="left-to-right">
+                    <img src="img/brand/white.png" alt="logo">
+                </transition>
             </router-link>
+            
+            
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
@@ -114,5 +119,17 @@ export default {
   }
 };
 </script>
+
 <style>
+.left-to-right-leave-active,
+.left-to-right-enter-active {
+    transition: all 500ms;
+}
+.left-to-right-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+}
+.left-to-right-leave-to {
+    transform: translateX(0);
+}
 </style>
